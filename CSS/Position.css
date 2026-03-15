@@ -1,0 +1,50 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+    border: 2px solid black;
+    display: inline-block;;
+}
+#box1{
+    position: static;
+    /* The 'static' value is the default position for all elements. It means that the element will be positioned according to the normal flow of the document. */
+    /* In this case, the div will be positioned at the top left corner of the page, and it will not be affected by the 'top' and 'left' properties. */
+    top: 20px;
+    left: 20px;
+    background-color: lightcoral;
+    z-index: 3;
+    
+     /* The 'z-index' property specifies the stack order of elements. An element with a higher z-index will be displayed in front of an element with a lower z-index. */
+}
+#box2{
+    position: relative;
+    /* The 'relative' value means that the element will be positioned relative to its normal position. */
+    /* In this case, the div will be positioned 20px down and 20px to the right of its normal position. */
+    top: 20px;
+    left: 20px;
+    background-color: lightgreen;
+    background-image: url("Virat-Kohli-8.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    z-index: 2;
+    
+}
+#box3{
+    position: absolute;
+    /* The 'absolute' value means that the element will be positioned relative to the nearest positioned ancestor. If there is no positioned ancestor, it will be positioned relative to the initial containing block (usually the viewport). */
+    /* In this case, the div will be positioned 20px down and 20px to the right of the top left corner of the page, because there is no positioned ancestor. */
+    top: 20px;
+    right: 20px;
+    background-color: lightyellow;
+    z-index: 0;
+}
+#box4{
+    position: fixed;
+    /* The 'fixed' value means that the element will be positioned relative to the viewport, which means it will stay in the same place even if the page is scrolled. */
+    /* NAV BAR In this case, the div will be positioned 20px down and 20px to the right of the top left corner of the viewport, and it will stay there even if the page is scrolled. */
+    top: 20px;
+    left: 20px;
+    z-index: -1;
+    background-color: lightpink;
+    
+}

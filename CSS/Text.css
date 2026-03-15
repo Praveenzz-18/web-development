@@ -1,0 +1,32 @@
+/* p{
+    text-align: center;
+    color: pink;
+    text-decoration: green dashed underline;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+} */
+ #outer {
+    text-align: left;
+    color: rgb(50, 20, 20);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    height : 2px;
+    width: 600px;
+}
+#inner {
+    text-align: left;
+    color: rgb(26, 20, 50);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    text-decoration: green dashed line-through;
+    text-transform: lowercase;
+}
+h1 {
+    text-align: left;
+    color: blue;
+    font-weight: lighter;
+   font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}  

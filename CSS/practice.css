@@ -1,0 +1,18 @@
+#box {
+    background-color: rgb(123, 160, 173);
+    color: rgb(50, 20, 20);
+}
+
+.heading {
+    /* font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; */
+    color: red;
+}
+button {
+    background-color: green;
+    color: rgb(50, 20, 20);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}

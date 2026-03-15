@@ -1,0 +1,15 @@
+#box-model {
+    background-color: lightblue;
+    height: 60px;
+    width: 500px;
+    /* < !-- margin: 20px; --> */
+    /* border- used to set an elemnt's border --> */
+    border-width: 2px;
+    border-style: dotted;
+    border-color: red;
+    text-align: center;
+    /* used to align with the given width (div) */
+    padding: 25px;
+    margin: 50px;
+    
+}

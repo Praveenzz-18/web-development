@@ -1,0 +1,33 @@
+/* * {
+    color: aqua;
+  } */
+h1 {
+  color: rgb(142, 142, 214);
+} 
+/*  id selector #welcome-title */ 
+#welcome-title {
+  color: rgb(0, 255, 0);
+}
+
+
+ p {
+  color: rgb(255, 0, 0);
+} 
+ button {
+  background-color: green;
+  color: rgb(22, 21, 21);
+  padding: 10px 20px;
+  border: 2px solid rgb(204, 178, 178);
+  cursor: pointer;  
+}
+button:hover {
+  background-color: darkgreen;
+}   
+
+body {
+  font-family: Arial, sans-serif;
+  /* background-color: rgb(88, 88, 82); */
+  background-color:#98cbb8;
+  margin: 0;
+  padding: 20px;
+}

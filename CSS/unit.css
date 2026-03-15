@@ -1,0 +1,19 @@
+#box1
+{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    font-size: 20px;
+}
+#box2
+{
+    width: 50%;
+    height: 120px;
+    background-color: lightcoral;
+    margin: 10px;
+    font-size: 0.5em;
+    /* 0.5em means that the font size of the text inside box2 will be half of the font size of the text inside box1, 
+    which is 20px. So, the font size of the text inside box2 will be 10px. */
+    /* width: 5em depends on the font-size of the element itself. So, if the font-size of the text inside box2 is 10px, then the width of box2 will be 5 times 10px, which is 50px. */
+    width: 5em;
+}

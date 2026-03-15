@@ -1,0 +1,36 @@
+*{
+    /* <!-- This is a CSS reset to remove default browser styles --> */
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#navbar {
+
+    height: 60px;
+    background-color: #0f1111;
+    font-style: normal;
+
+}
+button {
+    background-color: #f08804;
+     color: white;
+    border: none;
+    padding: 15px 32px;
+    margin: 5px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    border-radius: 3px;
+}
+
+#logo{
+    color:rgb(225, 157, 61);
+    font: size 25px;
+}
+
+a { 
+    margin-right: 200px;
+    text-decoration: none;
+}
